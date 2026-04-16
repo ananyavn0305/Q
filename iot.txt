@@ -1,0 +1,233 @@
+🔹 Unit I: Embedded Systems
+Q1. What is an Embedded System?
+A system designed to perform a specific function within a larger system.
+It combines hardware and software for dedicated tasks.
+Q2. What are characteristics of Embedded Systems?
+They are real-time, reliable, and resource-constrained systems.
+They are designed for specific applications with minimal user interaction.
+Q3. What is a Real-Time System?
+A system that responds within a strict time constraint.
+Output correctness depends on both result and timing.
+Q4. What are Real-Time Tasks?
+Tasks that must be executed within deadlines.
+They are periodic or event-driven.
+Q5. Difference between General Processor and Embedded Processor?
+General processors handle multiple tasks, embedded processors are task-specific.
+Embedded processors are optimized for efficiency and low power.
+Q6. What is a Microcontroller?
+A compact integrated circuit with CPU, memory, and I/O.
+Used for controlling embedded applications.
+Q7. Properties of Microcontrollers?
+Low power consumption and compact size.
+Integrated peripherals like timers and ADC.
+Q8. Components of Microcontroller?
+CPU, RAM, ROM, I/O ports, timers.
+Also includes ADC(Analog-to-Digital Converter), DAC(Digital-to-Analog Converter), and communication interfaces.
+Q9. What is System-on-Chip (SoC)?
+An integrated chip with all system components.
+Used in smartphones and IoT devices.
+Q10. Examples of SoC?
+Raspberry Pi SoC and mobile processors.
+Used in smart devices.
+Q11. Components of Embedded Systems?
+Hardware, software, and real-time OS.
+Includes sensors and actuators.
+Q12. What is Embedded Processor?
+Processor designed for embedded applications.
+Optimized for specific control tasks.
+🔹 Unit II: IoT Concepts
+Q13. What is IoT?
+A network of interconnected physical devices.
+Devices collect and exchange data via internet.
+Q14. Characteristics of IoT?
+Connectivity, intelligence, scalability.
+Self-configuration and dynamic nature.
+Q15. Trends in IoT Adoption?
+Rapid growth in smart devices and automation.
+Used in healthcare, agriculture, smart homes.
+Q16. What are IoT Devices?
+Devices connected to internet with sensors/actuators.
+Example: smart watches, smart bulbs.
+Q17. IoT Devices vs Computers?
+IoT devices are task-specific and low-power.
+Computers are general-purpose systems.
+Q18. Basic Building Blocks of IoT?
+Sensors, connectivity, processing, user interface.
+Cloud and analytics also included.
+Q19. What are “Things” in IoT?
+Physical objects connected to internet.
+They collect and share data.
+Q20. What is Interoperability in IoT?
+Ability of devices to communicate across platforms.
+Ensures seamless integration.
+Q21. What are Sensors?
+Devices that detect physical changes.
+Convert them into electrical signals.
+Q22. What are Actuators?
+Devices that perform actions based on signals.
+Example: motors, LEDs.
+Q23. Why Analog/Digital Conversion is needed?
+Sensors produce analog signals.
+Microcontrollers process digital signals.
+Q24. IoT Functional Blocks?
+Devices, communication, services, management.
+Also includes security and applications.
+Q25. IoT Enabling Technologies?
+Cloud computing, big data, AI.
+Wireless communication technologies.
+Q26. IoT Levels and Deployment Templates?
+Defines system complexity and architecture.
+Ranges from simple to complex deployments.
+Q27. Applications of IoT?
+Smart homes, healthcare, agriculture.
+Industrial automation and smart cities.
+🔹 Unit III: IoT Design Methodology
+Q28. What are IoT Design Steps?
+Requirement analysis, design, development, testing.
+Deployment and maintenance.
+Q29. Basics of IoT Networking?
+Devices communicate via internet protocols.
+Includes wired and wireless communication.
+Q30. Networking Components?
+Routers, switches, gateways.
+Sensors and communication modules.
+Q31. What is Internet Structure?
+A global network of interconnected systems.
+Uses TCP/IP protocols.
+Q32. IoT Communication Models?
+Request-response, publish-subscribe.
+Push-pull and exclusive pair.
+Q33. IoT Communication APIs?
+REST APIs and WebSockets.
+Used for communication between devices.
+Q34. What are Sensor Networks?
+Group of sensors collecting data.
+Used for monitoring environments.
+Q35. What is M2M?
+Machine-to-Machine communication.
+Device to device communication without human intervention.
+Example: MQTT.
+Q36. What is SCADA?
+Supervisory Control and Data Acquisition system.
+Used for industrial monitoring.
+Q37. What is WSN?
+Wireless Sensor Network.
+Sensors connected wirelessly.
+Q38. What is RFID?
+Radio Frequency Identification technology.
+Used for tracking objects.
+🔹 Unit IV: IoT Protocols
+Q39. Why Protocol Standardization is needed?
+Ensures compatibility between devices.
+Improves communication efficiency.
+Q43. What is Modbus Protocol?
+Communication protocol for industrial devices.
+Used in SCADA systems.
+Q44. What is Zigbee Architecture?
+Low-power wireless communication standard.
+Used for short-range IoT networks.
+Q45. What is MQTT?
+(Message Queuing Telemetry Transport) Lightweight publish-subscribe protocol.
+Used for IoT messaging.
+Q46. What is 6LoWPAN?
+IPv6 over low-power wireless networks.
+Used in constrained devices.
+Q47. What is LoRa?
+Long-range communication protocol.
+Used for low-power wide-area networks.
+🔹 Unit V: Cloud Platforms for IoT
+Q48. What are Cloud Storage Models?
+Public, private, hybrid cloud.
+Used for data storage.
+Q49. What is Communication API?
+Interface for device communication.
+Example: REST API.
+Q50. Cloud for IoT?
+Stores and processes IoT data.
+Provides scalability.
+Q51. What is AWS IoT?
+Cloud platform for IoT by .
+Enables device connectivity and data processing.
+Q52. What is SkyNet IoT?
+Open-source IoT platform.
+Used for device communication.
+Q53. What is Messaging Platform?
+Handles communication between devices.
+Example: MQTT brokers.
+Q54. What are RESTful Web Services?
+Use HTTP methods for communication.
+Lightweight and scalable.
+Q55. What is gRPC(Remote Procedure Calls) ?
+High-performance RPC framework.
+Uses HTTP/2.
+Q56. What is SOAP(Simple Object Access Protocol)?
+Protocol for exchanging structured data.
+Uses XML format.
+🔹 Unit VI: Security in IoT
+Q57. What is IoT Security?
+Protection of devices and data.
+Prevents unauthorized access.
+Q58. Vulnerabilities of IoT?
+Weak authentication and insecure communication.
+Limited device resources.
+Q59. Security Requirements?
+Confidentiality, integrity, availability.
+Authentication and authorization.
+Q60. Challenges for Secure IoT?
+Resource constraints and scalability.
+Heterogeneous devices.
+Q61. What is Threat Modeling?
+Identifying potential threats.
+Helps in designing secure systems.
+Q62. Identity Establishment?
+Assigning unique identity to devices.
+Ensures authentication.
+Q63. Access Control?
+Restricts unauthorized access.
+Defines user permissions.
+Q64. Data and Message Security?
+Encryption ensures safe communication.
+Prevents data tampering.
+Q65. Non-repudiation?
+Ensures sender cannot deny action.
+Uses digital signatures.
+Q66. Availability?
+Ensures system is always accessible.
+Prevents downtime.
+Q67. Security Model for IoT?
+Layered approach to security.
+Includes device, network, and cloud layers.
+Q68. Challenges in Designing IoT Apps?
+Scalability, security, interoperability.
+Handling large data.
+Q69. What is Lightweight Cryptography?
+Encryption for low-power devices.
+Optimized for IoT constraints.
+🔹 Assignments-Based Viva
+Q70. What is Raspberry Pi?
+A small single-board computer.
+Used for IoT projects.
+Q71. What is Arduino?
+Microcontroller-based development board.
+Used for embedded applications.
+Q72. What is IR Sensor?
+Detects obstacles using infrared light.
+Used in automation.
+Q73. How obstacle detection works?
+IR sensor detects reflected signals.
+Triggers LED alert.
+Q74. What is Temperature Sensor?
+Measures temperature changes.
+Example: LM35.
+Q75. Threshold in temperature system?
+Predefined limit for action.
+Triggers alert when exceeded.
+Q76. What is Beagle Board?
+Embedded development board.
+Used for advanced IoT projects.
+Q77. Camera interfacing in IoT?
+Used for image capture.
+Connected via modules.
+Q78. How image is stored?
+Captured and saved in memory/storage.
+Can be uploaded to cloud.

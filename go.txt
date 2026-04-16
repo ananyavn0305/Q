@@ -1,0 +1,191 @@
+✅ UNIT I – Introduction to Go
+1. What is Go runtime?
+Go runtime manages memory, garbage collection, and goroutines. It acts as a bridge between OS and Go programs.
+2. What is compilation in Go?
+Go is a compiled language that converts source code into machine code. This makes execution fast and efficient.
+3. What are keywords in Go?
+Keywords are reserved words like func, var, if. They cannot be used as identifiers.
+4. What are identifiers?
+Identifiers are names given to variables, functions, etc. They must start with a letter or underscore.
+5. What are constants?
+Constants are fixed values declared using const. Their value cannot be changed once assigned.
+6. What are variables?
+Variables store data values and are declared using var or :=. Their values can change during execution.
+7. What are operators in Go?
+Operators perform operations like +, -, *, /. They are used in expressions.
+8. What is an expression?
+An expression is a combination of variables and operators. It evaluates to a value.
+9. What is local assignment?
+Local assignment uses := to declare and initialize variables inside functions. It is shorthand syntax.
+10. What are Boolean types?
+Boolean types store true or false. Used in decision-making.
+11. What are numeric types?
+Numeric types include int, float, etc. Used for mathematical calculations.
+12. What are character types?
+Characters are represented using rune. It stores Unicode values.
+13. What are pointers?
+Pointers store memory addresses of variables. Declared using *.
+14. What is an address in Go?
+Address is the memory location of a variable. Accessed using &.
+15. What are strings?
+Strings are sequences of characters. Declared using double quotes.
+16. What is if-else?
+Used for decision making based on conditions. Executes blocks accordingly.
+17. What is switch statement?
+Switch is used for multiple conditions. It simplifies multiple if-else.
+18. What is for loop?
+Used for iteration in Go. It is the only loop construct.
+19. What is iteration?
+Iteration means repeating a block of code. Done using loops.
+20. What is break statement?
+Break exits the loop immediately. Used in loops and switch.
+21. What is continue statement?
+Continue skips current iteration. Moves to next loop cycle.
+✅ UNIT II – Functions
+22. What are parameters in functions?
+Parameters are inputs passed to functions. They help process data.
+23. What are return values?
+Return values are outputs from functions. Declared using return.
+24. What is call by value?
+A copy of variable is passed. Changes do not affect original value.
+25. What is call by reference?
+Address of variable is passed using pointers. Changes affect original.
+26. What are named return variables?
+Return variables declared in function signature. Automatically returned.
+27. What is blank identifier _?
+Used to ignore values. Prevents unused variable errors.
+28. What are variable arguments?
+Functions accepting multiple arguments using .... Called variadic functions.
+29. What is defer statement?
+Executes a function after main function completes. Used for cleanup.
+30. What is recursion?
+Function calling itself repeatedly. Used for problems like factorial.
+31. What are functions as parameters?
+Functions can be passed as arguments. Useful in higher-order functions.
+✅ UNIT III – Working with Data
+32. What is an array literal?
+Direct initialization of array values. Example: [3]int{1,2,3}.
+33. What is multidimensional array?
+Array of arrays. Used for matrices.
+34. What are array parameters?
+Arrays passed to functions. Passed by value.
+35. What are slices?
+Dynamic arrays with flexible size. More powerful than arrays.
+36. What are slice parameters?
+Slices passed by reference. Changes affect original data.
+37. What is multidimensional slice?
+Slice of slices. Used for dynamic matrices.
+38. What is structure in Go?
+User-defined data type using struct. Groups different data types.
+39. What are structure parameters?
+Struct passed to functions. Can use pointer for efficiency.
+✅ UNIT IV – Methods and Interfaces
+40. What is a method?
+Function that is associated with a specific type knows as receiver
+41. Difference between function and method?
+Function is independent. Method belongs to a type.
+42. What is pointer receiver?
+Method receives pointer of struct. Can modify original data.
+43. What is value receiver?
+Method gets copy of data. Cannot modify original.
+44. What are method values?
+Methods treated as values. Can be assigned to variables.
+45. What are method expressions?
+Methods used like functions with explicit receiver.
+46. What is interface?
+Collection of method signatures. Defines behavior.
+47. What are interface values?
+Hold value and type. Used for polymorphism.
+48. What is type assertion?
+Extract actual value from interface. Syntax: i.(type).
+49. What is type switch?
+Switch used on interface types. Identifies dynamic type.
+50. What are method sets?
+Defines methods available to a type. Depends on receiver.
+51. What are embedded interfaces?
+Interface inside another interface. Promotes code reuse.
+52. What is empty interface?
+Interface with no methods. Can hold any value.
+✅ UNIT V – Goroutines & Channels
+53. What is concurrency?
+Multiple tasks running independently. Managed by Go runtime.
+54. What is parallelism?
+Multiple tasks executing simultaneously. Requires multiple CPUs.
+55. What is goroutine?
+Lightweight thread managed by Go. Created using go.
+56. What are lambda functions?
+Anonymous functions without name. Used inline.
+57. What is wait group?
+Used to wait for goroutines to finish. Part of sync package.
+58. What are channels?
+Used for communication between goroutines. Type-safe.
+59. What is sending in channel?
+Sending data using <-. Example: ch <- value.
+60. What is receiving from channel?
+Receiving data using <-. Example: value := <-ch.
+61. What are unbuffered channels?
+No storage. Sender waits for receiver.
+62. What are buffered channels?
+Have capacity. Sender doesn’t wait until buffer full.
+63. What are directional channels?
+Channels restricted to send or receive only.
+64. What is select statement?
+Handles multiple channels. Executes ready case.
+65. What are timers?
+Used for delayed execution. Example: time.After.
+66. What are tickers?
+Used for repeated execution at intervals.
+✅ UNIT VI – Packages and Files
+67. What are packages?
+Collection of Go files. Helps organize code.
+68. What is workspace?
+Directory structure for Go projects. Contains src, pkg, bin.
+69. What are exported names?
+Names starting with capital letter. Accessible outside package.
+70. What are import paths?
+Path to access packages. Example: fmt.
+71. What are named imports?
+Alias given to imported package. Example: f "fmt".
+72. What is package initialization?
+init() function runs before main. Used for setup.
+73. What are blank imports?
+Imported using _. Used for side effects.
+74. What is unit testing?
+Testing functions using testing package. Ensures correctness.
+75. What are table tests?
+Testing multiple inputs in structured format.
+76. What are random tests?
+Testing with random inputs. Checks robustness.
+77. What is benchmarking?
+Measures performance of code. Uses testing.B.
+78. How to work with files?
+Use os and io packages. Read/write files.
+✅ ASSIGNMENT BASED VIVA (IMPORTANT)
+79. How to check even/odd in Go?
+Use modulus operator %. If divisible by 2 → even.
+80. How to swap without temp?
+Use arithmetic or XOR logic. Example: a=a+b.
+81. What is Fibonacci series?
+Series where next = sum of previous two numbers.
+82. What is Pascal’s triangle?
+Triangle where each value = sum of above two values.
+83. How to compare strings?
+Use == operator or strings.Compare().
+84. What is palindrome?
+Same forward and backward. Example: 121.
+85. What is recursive sum of digits?
+Add digits using recursive function calls.
+86. What is slice append?
+Adds elements using append() function.
+87. What is struct sorting?
+Use sort package with custom logic.
+88. What is interface implementation?
+Type implements interface by defining methods.
+89. What is channel buffering?
+Allows storing multiple values in channel.
+90. How to create file in Go?
+Use os.Create() function.
+91. How to read XML in Go?
+Use encoding/xml package.
+92. What is benchmark function format?
+Function name starts with Benchmark.
